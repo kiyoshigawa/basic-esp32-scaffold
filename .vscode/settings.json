@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.env.windows": {
+        "RUSTC": "C:\\rust_code\\rust-xtensa\\build\\x86_64-pc-windows-msvc\\stage2\\bin\\rustc.exe",
+        "XARGO_RUST_SRC": "C:\\rust_code\\rust-xtensa\\library\\",
+        "CUSTOM_RUSTC": "C:\\rust_code\\rust-xtensa\\build\\x86_64-pc-windows-msvc\\stage2\\bin\\rustc.exe"
+    },
+    "rust-analyzer.runnables.overrideCargo": "C:\\rust_code\\rust-xtensa\\build\\x86_64-pc-windows-msvc\\stage1-tools\\x86_64-pc-windows-msvc\\release\\.cargo\\bin\\xargo.exe",
+    "rust-analyzer.cargo.features": [
+        "xtensa-lx-rt/lx6",
+        "xtensa-lx/lx6",
+        "esp32-hal"
+    ],
+    "rust-analyzer.cargo.autoreload": false
+}
